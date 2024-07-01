@@ -416,4 +416,107 @@ var textStrings_ES = {
 	"misatrributed": "(misattributed)",
 };
 
-var textStrings = textStrings_PT_BR;
+var textStrings_FR = {
+	// Acte 1
+	"niceHat": "OH, QUEL BEAU CHAPEAU",
+	"outtaHere": "Sors d'ici",
+	"getARoom": "DÉGOÛTANT, ALLEZ DANS UNE CHAMBRE",
+	"notCoolAnymore": "oubliez ça, les chapeaux ne sont plus cool",
+	"tvOnTv": "Une TV... DANS UNE TV !",
+	"cricky": "PETIT GRILLON <3",
+	"tooManyCrickets": "ok, ça fait trop de grillons",
+	"normalPeep": "juste un regard",
+	"normalPeeps": "juste quelques regards",
+	"wowNothing": "WOW, LE VIDE",
+
+	// Acte 2
+	"crazySquareAttacks": "LE CARRÉ FOU ATTAQUE",
+	"justMissed": "oooooh, juste manqué",
+	"somethingInteresting": "(tu dois les attraper en train de faire *quelque chose* d'intéressant...)",
+	"whoIsScreaming": "(tu dois te concentrer sur celui qui crie)",
+	"circleFearsSquares": "LE CERCLE A PEUR DES CARRÉS",
+	"whoScaresThem": "(tu dois aussi attraper *qui* les effraie)",
+	"areTheyScared": "(tu dois les attraper *en train* d'être effrayés par un carré)", // non utilisé
+	"squaresSnubCircles": "LES CARRÉS SNOBENT LES CERCLES",
+	"areTheySnubbed": "(tu dois les attraper *en train* de snober un cercle)", // non utilisé
+	"everyoneHates": "TOUT LE MONDE SE DÉTESTE !!1!",
+	"almostEveryoneHates": "PRESQUE TOUT LE MONDE SE DÉTESTE...",
+	"squaresHateCircles": "LES CARRÉS DÉTESTENT LES CERCLES",
+	"circlesHateSquares": "LES CERCLES DÉTESTENT LES CARRÉS",
+	"areTheyYelling": "(tu dois les attraper *en train* de crier sur les autres)", // non utilisé
+	"nerdsNow": "que font ces nerds",
+	"schockedPeep": "pourquoi cette personne est-elle choquée?",
+	"whatever": "Peu importe",
+
+	// Acte 3
+	"ellipsis": ". . .",
+	"coolNoMore": "les chapeaux ne sont plus cool, tu ne savais pas?",
+	"beScared": "SOIS EFFRAYÉ. SOIS EN COLÈRE.",
+
+	// MANIFESTE
+	"manifesto": [
+		//"comme si les téléspectateurs voulaient des BONNES nouvelles",
+		"Qui allume la TV pour voir *les gens s'entendre?*",
+		"la paix est ennuyeuse. la violence est virale.",
+		//"peace is boring. conflict gets clicks.",
+		"et tout le monde a besoin d'un conflit, alors...",
+		//"...DONNEZ AU PUBLIC CE QU'IL VEUT.",
+		"DONNE AU PUBLIC CE QU'IL VEUT."
+	],
+
+	// -- Chaînes actuellement dans les ressources graphiques --
+
+	// (bg_preload.png) Écran de préchargement
+	"playingTime": "temps de jeu : 5 minutes",
+	"warning": "avertissement : le programme suivant contient des scènes de snobisme,\nde grossièreté et de meurtre de masse.\ndiscrétion du téléspectateur conseillée.",
+
+	// (cam-instructions.png) Instructions de la caméra
+	"pointAndClick": "POINTE ET CLIQUE",
+
+	// (chyron3.png)
+	"chyronNothing": "WOW, LE *VIDE*",
+
+	// (credits0001.png)
+	"createdBy": "créé par",
+	"NickyCase": "Nicky Case",
+
+	// (credits0002.png)
+	"manyThanks": "Un grand merci à tous les joueurs :",
+
+	// (credits000[3,4,5,6].png)
+	"patreonSupporters": "et à mes abonnés Patreon :",
+
+	// (credits0007.png)
+	"lastButNotLeast": "et enfin, mais non des moindres,",
+
+	// (credits0008.png)
+	"thankYouForPlaying": "MERCI d'avoir joué !",
+
+	// (preload_play.png)
+	"playButton": "JOUER",
+
+	// (end_button.png) Post-crédits
+	"otherWorkButton": "regarde mes autres travaux",
+	"buyCoffeeButton": "achète-moi un café",
+	"replayButton": "rejoue le chaos",
+
+	// (logo.png) Post-crédits
+	"logoWBWWB": "PARTAGE LA DOULEUR :",
+
+	// (end_prototype.png)
+	"endOfPrototype": "FIN DU PROTOTYPE",
+	"toBeContinued": "(à suivre !)",
+
+	// (quote0002.png)
+	"WBWWB": "Nous devenons ce que nous contemplons.",
+	"WSOTATOTSU": "Nous façonnons nos outils et ensuite nos outils nous façonnent.",
+
+	// (quote0003.png)
+	"MarshallMcLuhan": "Marshall McLuhan",
+
+	// (quote0004.png)
+	"misatrributed": "(mal attribué)",
+};
+
+
+var textStrings = textStrings_FR;

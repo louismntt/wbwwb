@@ -340,9 +340,22 @@ function Stage_Angry_Escalation(self, HACK){
             }
 
             // ONCE (ALMOST) EVERYONE IS ANGRY, IT'S TIME FOR MURDER
-            if(angryRatio==1.00){ // EXACTLY 1.
-                Stage_Evil(self); // Next stage
+            if(angryRatio==1.00 && !self.zoomer.started){ // EXACTLY 1.
+                // Stage_Evil(self); // Next stage
+                self.zoomer.init();
+                // Game.sceneManager.gotoScene("Credits");
             }
+
+            self.zoomer.onComplete = function(){
+
+                // Sounds stop
+                // creepyAmbience.stop();
+                // panic.stop();
+        
+                // Next Scene!
+                Game.sceneManager.gotoScene("Credits");
+        
+            };
 
         }
     };
